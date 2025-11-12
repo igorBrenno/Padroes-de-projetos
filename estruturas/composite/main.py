@@ -1,8 +1,12 @@
+import  abstractmethod
+
 class graphic:
 
+    @abstractmethod
     def move(x, y):
         pass
-
+    
+    @abstractmethod
     def draw():
         pass
 
